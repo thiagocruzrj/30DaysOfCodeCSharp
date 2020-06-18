@@ -1,6 +1,4 @@
 using System;
-using System.Collections.Generic;
-using System.IO;
 
 class Day4 {
     public int age;     
@@ -14,6 +12,7 @@ class Day4 {
             age = 0;
         }
      }
+
      public void amIOld() {
         // Do some computations in here and print out the correct statement to the console 
         if (age < 13) Console.WriteLine("You are young.");
@@ -26,7 +25,7 @@ class Day4 {
         age++;
      }
 
-static void Main(String[] args) {
+    static void Main(String[] args) {
         int T=int.Parse(Console.In.ReadLine());
         for (int i = 0; i < T; i++) {
             int age=int.Parse(Console.In.ReadLine());
