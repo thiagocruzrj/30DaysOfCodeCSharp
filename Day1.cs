@@ -1,7 +1,9 @@
 namespace DaysOfCodeCSharp
 {
-    class Day1 {
-        static void Main(String[] args) {
+    class Day1 
+    {
+        static void Main(String[] args) 
+        {
             int i = 4;
             double d = 4.0;
             string s = "HackerRank ";

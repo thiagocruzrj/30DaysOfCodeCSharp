@@ -1,34 +1,37 @@
 using System;
 using static System.Console;
 
-class Day8
+namespace DaysOfCodeCSharp
 {
-    static void Main(String[] args)
+    class Day8
     {
-        Dictionary<string, string> phoneBook = new Dictionary<string, string>();
-
-        int entries = Int32.Parse(Console.ReadLine());
-
-        for (int i = 0; i < entries; i++)
+        static void Main(String[] args)
         {
-            string[] entry = Console.ReadLine().Split(' ');
-            phoneBook.Add(entry[0], entry[1]);
-        }
+            Dictionary<string, string> phoneBook = new Dictionary<string, string>();
 
-        string name = Console.ReadLine();
+            int entries = Int32.Parse(Console.ReadLine());
 
-        while (!string.IsNullOrEmpty(name))
-        {
-            if (phoneBook.TryGetValue(name, out string phoneNumber))
+            for (int i = 0; i < entries; i++)
             {
-                Console.WriteLine("{0}={1}", name, phoneNumber);
-            }
-            else
-            {
-                Console.WriteLine("Not found");
+                string[] entry = Console.ReadLine().Split(' ');
+                phoneBook.Add(entry[0], entry[1]);
             }
 
-            name = Console.ReadLine();
+            string name = Console.ReadLine();
+
+            while (!string.IsNullOrEmpty(name))
+            {
+                if (phoneBook.TryGetValue(name, out string phoneNumber))
+                {
+                    Console.WriteLine("{0}={1}", name, phoneNumber);
+                }
+                else
+                {
+                    Console.WriteLine("Not found");
+                }
+
+                name = Console.ReadLine();
+            }
         }
     }
 }
