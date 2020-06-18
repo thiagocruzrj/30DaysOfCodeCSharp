@@ -2,8 +2,10 @@ using System;
 
 namespace DaysOfCodeCSharp
 {
-    class Day7 {
-        static void Main(string[] args) {
+    class Day7 
+    {
+        static void Main(string[] args) 
+        {
             Console.ReadLine();
         
             var str = Console.ReadLine();
@@ -11,7 +13,8 @@ namespace DaysOfCodeCSharp
 
             Array.Reverse(arr);
 
-            foreach(var num in arr){
+            foreach(var num in arr)
+            {
                 Console.Write($"{num} ");
             }
         }

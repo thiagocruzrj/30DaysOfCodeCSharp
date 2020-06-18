@@ -2,8 +2,10 @@ using System;
 
 namespace DaysOfCodeCSharp
 {
-    class Day6 {
-        static void Main(String[] args) {
+    class Day6 
+    {
+        static void Main(String[] args) 
+        {
             var N = int.Parse(Console.ReadLine());
 
             for (var i = 0; i < N; i++)
