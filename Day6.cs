@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-class Solution {
+class Day6 {
     static void Main(String[] args) {
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution */
         var N = int.Parse(Console.ReadLine());
