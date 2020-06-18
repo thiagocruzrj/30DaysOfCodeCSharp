@@ -185,9 +185,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\thiago.justo_ext\\Documents\\GitHub\\scd-db\\30DaysOfCodeCSharp\\30DaysOfCodeCSharp.csproj",
-      "projectName": "30DaysOfCodeCSharp",
-      "projectPath": "C:\\Users\\thiago.justo_ext\\Documents\\GitHub\\scd-db\\30DaysOfCodeCSharp\\30DaysOfCodeCSharp.csproj",
+      "projectUniqueName": "C:\\Users\\thiago.justo_ext\\Documents\\GitHub\\scd-db\\30DaysOfCodeCSharp\\DaysOfCodeCSharp.csproj",
+      "projectName": "DaysOfCodeCSharp",
+      "projectPath": "C:\\Users\\thiago.justo_ext\\Documents\\GitHub\\scd-db\\30DaysOfCodeCSharp\\DaysOfCodeCSharp.csproj",
       "packagesPath": "C:\\Users\\thiago.justo_ext\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\thiago.justo_ext\\Documents\\GitHub\\scd-db\\30DaysOfCodeCSharp\\obj\\",
       "projectStyle": "PackageReference",
