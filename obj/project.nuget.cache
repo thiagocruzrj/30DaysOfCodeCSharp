@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "vae2x6s/v+P6izN3Kx21/150MqkBM9GB1mGEUosj/Ykj7eWWlPbQFAjXLOAaoCa4FAYCHPhsvRQDGD3TKOfQ2w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\thiago.justo_ext\\Documents\\GitHub\\scd-db\\30DaysOfCodeCSharp\\30DaysOfCodeCSharp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\thiago.justo_ext\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\thiago.justo_ext\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
